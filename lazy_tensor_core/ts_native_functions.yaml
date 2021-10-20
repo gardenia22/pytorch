@@ -7,7 +7,6 @@ full_codegen:
   - _softmax_backward_data
   - addcdiv
   - addcmul
-  - bitwise_and.Scalar
   - bitwise_and.Tensor
   - cos
   - clamp
@@ -22,8 +21,8 @@ full_codegen:
   - rsqrt
   - sigmoid
   - topk
-supported:
   - add.Tensor
+supported:
   - addcdiv_
   - as_strided
   - as_strided_

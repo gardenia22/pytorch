@@ -56,13 +56,6 @@ LazyTensor acos(const LazyTensor& input);
 
 LazyTensor acosh(const LazyTensor& input);
 
-LazyTensor add(
-    const LazyTensor& input, const LazyTensor& other, const at::Scalar& alpha,
-    c10::optional<at::ScalarType> logical_element_type = c10::nullopt);
-LazyTensor add(
-    const LazyTensor& input, const at::Scalar& other, const at::Scalar& alpha,
-    c10::optional<at::ScalarType> logical_element_type = c10::nullopt);
-
 void addcdiv_(LazyTensor& input, const at::Scalar& value,
               const LazyTensor& tensor1, const LazyTensor& tensor2);
 
